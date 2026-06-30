@@ -3,6 +3,7 @@ import Section1 from "./Section1";
 import "../../styles/HomeStyle.css"
 import Section2 from "./Section2";
 import Section3 from "./Section3";
+import Section4 from "./Section4";
 
 
 export default function Home(){
@@ -15,6 +16,8 @@ export default function Home(){
             <Section2 />
             {/* Home Section 3  */}
             <Section3 />
+            {/* Home Section 4  */}
+            <Section4 />
         </Layout>
         </>
     )
